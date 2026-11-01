@@ -1,0 +1,2 @@
+Invoking command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test1 -- -j24 -l24
+Invoked command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test1 -- -j24 -l24

@@ -1,0 +1,22 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/test2.dir/src/in.cpp.o[0m
+[100%] [1m[32mLinking CXX executable test2[0m
+[100%] Built target test2
+-- Install configuration: ""
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/lib/test2/test2
+-- Set non-toolchain portion of runtime path of "/home/hqtebk08/Code/tjurm2027-ros/install/test2/lib/test2/test2" to ""
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/ament_index/resource_index/package_run_dependencies/test2
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/ament_index/resource_index/parent_prefix_path/test2
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/environment/ament_prefix_path.sh
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/environment/ament_prefix_path.dsv
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/environment/path.sh
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/environment/path.dsv
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/local_setup.bash
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/local_setup.fish
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/local_setup.sh
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/local_setup.zsh
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/local_setup.dsv
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/package.dsv
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/ament_index/resource_index/packages/test2
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/cmake/test2Config.cmake
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/cmake/test2Config-version.cmake
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/package.xml

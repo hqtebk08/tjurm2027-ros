@@ -1,0 +1,33 @@
+[0.006s] Invoking command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hqtebk08/Code/tjurm2027-ros/src/test1 -DCMAKE_INSTALL_PREFIX=/home/hqtebk08/Code/tjurm2027-ros/install/test1
+[0.016s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.120s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.123s] -- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.133s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.134s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.139s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.143s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.169s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.169s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.181s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.210s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[0.266s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.266s] -- Configured cppcheck include dirs: 
+[0.266s] -- Configured cppcheck exclude dirs and/or files: 
+[0.266s] -- Added test 'lint_cmake' to check CMake code style
+[0.267s] -- Added test 'uncrustify' to check C / C++ code style
+[0.267s] -- Configured uncrustify additional arguments: 
+[0.267s] -- Added test 'xmllint' to check XML markup files
+[0.267s] -- Configuring done (0.3s)
+[0.274s] -- Generating done (0.0s)
+[0.284s] -- Build files have been written to: /home/hqtebk08/Code/tjurm2027-ros/build/test1
+[0.287s] Invoked command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/hqtebk08/Code/tjurm2027-ros/src/test1 -DCMAKE_INSTALL_PREFIX=/home/hqtebk08/Code/tjurm2027-ros/install/test1
+[0.288s] Invoking command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test1 -- -j24 -l24
+[0.314s] [ 50%] [32mBuilding CXX object CMakeFiles/test1.dir/src/out.cpp.o[0m
+[0.666s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:2:9:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/u_int16_multi_array.hpp: No such file or directory
+[0.666s]     2 | #include[01;31m[K"std_msgs/msg/u_int16_multi_array.hpp"[m[K
+[0.666s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.666s] compilation terminated.
+[0.668s] gmake[2]: *** [CMakeFiles/test1.dir/build.make:79: CMakeFiles/test1.dir/src/out.cpp.o] Error 1
+[0.668s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/test1.dir/all] Error 2
+[0.668s] gmake: *** [Makefile:146: all] Error 2
+[0.671s] Invoked command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test1 -- -j24 -l24

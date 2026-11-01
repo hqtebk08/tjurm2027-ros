@@ -1,0 +1,10 @@
+[0.011s] Invoking command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test1 -- -j24 -l24
+[0.067s] [ 50%] [32mBuilding CXX object CMakeFiles/out_node.dir/src/out.cpp.o[0m
+[0.073s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.073s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.073s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.073s] compilation terminated.
+[0.074s] gmake[2]: *** [CMakeFiles/out_node.dir/build.make:79: CMakeFiles/out_node.dir/src/out.cpp.o] Error 1
+[0.074s] gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/out_node.dir/all] Error 2
+[0.074s] gmake: *** [Makefile:146: all] Error 2
+[0.075s] Invoked command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test1 -- -j24 -l24

@@ -1,0 +1,48 @@
+[0.008s] Invoking command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test1 -- -j24 -l24
+[0.027s] -- Found ament_cmake: 2.8.8 (/opt/ros/lyrical/share/ament_cmake/cmake)
+[0.136s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.139s] -- Found rclcpp: 32.0.3 (/opt/ros/lyrical/share/rclcpp/cmake)
+[0.148s] -- Found rosidl_generator_c: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_c/cmake)
+[0.149s] -- Found rosidl_generator_cpp: 5.2.1 (/opt/ros/lyrical/share/rosidl_generator_cpp/cmake)
+[0.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.184s] -- Found rmw_implementation_cmake: 7.10.2 (/opt/ros/lyrical/share/rmw_implementation_cmake/cmake)
+[0.185s] -- Found rmw_fastrtps_cpp: 9.4.10 (/opt/ros/lyrical/share/rmw_fastrtps_cpp/cmake)
+[0.195s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.230s] -- Found geometry_msgs: 5.9.3 (/opt/ros/lyrical/share/geometry_msgs/cmake)
+[0.262s] -- Found ament_lint_auto: 0.20.6 (/opt/ros/lyrical/share/ament_lint_auto/cmake)
+[0.322s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.322s] -- Configured cppcheck include dirs: 
+[0.323s] -- Configured cppcheck exclude dirs and/or files: 
+[0.323s] -- Added test 'lint_cmake' to check CMake code style
+[0.323s] -- Added test 'uncrustify' to check C / C++ code style
+[0.323s] -- Configured uncrustify additional arguments: 
+[0.323s] -- Added test 'xmllint' to check XML markup files
+[0.323s] -- Configuring done (0.3s)
+[0.332s] -- Generating done (0.0s)
+[0.343s] -- Build files have been written to: /home/hqtebk08/Code/tjurm2027-ros/build/test1
+[0.360s] [ 50%] [32mBuilding CXX object CMakeFiles/test1.dir/src/out.cpp.o[0m
+[3.376s] [100%] [1m[32mLinking CXX executable test1[0m
+[3.589s] [100%] Built target test1
+[3.594s] Invoked command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test1 -- -j24 -l24
+[3.599s] Invoking command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hqtebk08/Code/tjurm2027-ros/build/test1
+[3.602s] -- Install configuration: ""
+[3.602s] -- Execute custom install script
+[3.603s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/lib/test1/test1
+[3.607s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/ament_index/resource_index/package_run_dependencies/test1
+[3.611s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/ament_index/resource_index/parent_prefix_path/test1
+[3.615s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/environment/ament_prefix_path.sh
+[3.620s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/environment/ament_prefix_path.dsv
+[3.624s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/environment/path.sh
+[3.629s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/environment/path.dsv
+[3.633s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/local_setup.bash
+[3.637s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/local_setup.fish
+[3.641s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/local_setup.sh
+[3.645s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/local_setup.zsh
+[3.649s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/local_setup.dsv
+[3.653s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/package.dsv
+[3.657s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/ament_index/resource_index/packages/test1
+[3.661s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/cmake/test1Config.cmake
+[3.666s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/cmake/test1Config-version.cmake
+[3.670s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/package.xml
+[3.675s] Invoked command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/lyrical DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/hqtebk08/Code/tjurm2027-ros/build/test1

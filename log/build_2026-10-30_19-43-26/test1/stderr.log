@@ -1,0 +1,7 @@
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:2:9:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/u_int16_multi_array.hpp: No such file or directory
+    2 | #include[01;31m[K"std_msgs/msg/u_int16_multi_array.hpp"[m[K
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/test1.dir/build.make:79: CMakeFiles/test1.dir/src/out.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:153: CMakeFiles/test1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
