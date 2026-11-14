@@ -1,0 +1,43 @@
+[0.135s] Invoking command in '/home/hqtebk08/Code/tjurm2027-ros/build/test2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test2 -- -j2 -l2
+[0.693s] [35m[1mConsolidate compiler generated dependencies of target test2[0m
+[1.146s] [ 50%] [32mBuilding CXX object CMakeFiles/test2.dir/src/in.cpp.o[0m
+[13.537s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:[m[K In member function ‘[01m[Kvoid Test2::update(const OccupancyGrid&)[m[K’:
+[13.537s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:34:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _info_type[m[K’ {aka ‘[01m[Kconst struct nav_msgs::msg::MapMetaData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Khight[m[K’; did you mean ‘[01m[Kheight[m[K’?
+[13.540s]    34 |     hight = msg.info.[01;31m[Khight[m[K;
+[13.542s]       |                      [01;31m[K^~~~~[m[K
+[13.542s]       |                      [32m[Kheight[m[K
+[13.554s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:[m[K In member function ‘[01m[Kvoid Test2::plan(const PoseStamped&)[m[K’:
+[13.554s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:44:23:[m[K [01;31m[Kerror: [m[K‘[01m[Koorigin_x[m[K’ was not declared in this scope; did you mean ‘[01m[Korigin_x[m[K’?
+[13.555s]    44 |     float dx = goal_x-[01;31m[Koorigin_x[m[K;
+[13.555s]       |                       [01;31m[K^~~~~~~~~[m[K
+[13.557s]       |                       [32m[Korigin_x[m[K
+[13.563s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:45:23:[m[K [01;31m[Kerror: [m[K‘[01m[Koorigin_y[m[K’ was not declared in this scope; did you mean ‘[01m[Korigin_y[m[K’?
+[13.563s]    45 |     float dy = goal_y-[01;31m[Koorigin_y[m[K;
+[13.563s]       |                       [01;31m[K^~~~~~~~~[m[K
+[13.564s]       |                       [32m[Korigin_y[m[K
+[13.564s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:49:14:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::priority_queue<std::pair<float, int>, std::vector<std::pair<float, int> >, std::greater<std::pair<float, int> > >::push(double, int)[m[K’
+[13.564s]    49 |     [01;31m[Kfind.push(0.0,0)[m[K;
+[13.564s]       |     [01;31m[K~~~~~~~~~^~~~~~~[m[K
+[13.567s] In file included from [01m[K/usr/include/c++/11/queue:64[m[K,
+[13.567s]                  from [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:7[m[K:
+[13.567s] [01m[K/usr/include/c++/11/bits/stl_queue.h:640:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::priority_queue<_Tp, _Sequence, _Compare>::push(const value_type&) [with _Tp = std::pair<float, int>; _Sequence = std::vector<std::pair<float, int> >; _Compare = std::greater<std::pair<float, int> >; std::priority_queue<_Tp, _Sequence, _Compare>::value_type = std::pair<float, int>][m[K’
+[13.568s]   640 |       [01;36m[Kpush[m[K(const value_type& __x)
+[13.568s]       |       [01;36m[K^~~~[m[K
+[13.569s] [01m[K/usr/include/c++/11/bits/stl_queue.h:640:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[13.569s] [01m[K/usr/include/c++/11/bits/stl_queue.h:648:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::priority_queue<_Tp, _Sequence, _Compare>::push(std::priority_queue<_Tp, _Sequence, _Compare>::value_type&&) [with _Tp = std::pair<float, int>; _Sequence = std::vector<std::pair<float, int> >; _Compare = std::greater<std::pair<float, int> >; std::priority_queue<_Tp, _Sequence, _Compare>::value_type = std::pair<float, int>][m[K’
+[13.575s]   648 |       [01;36m[Kpush[m[K(value_type&& __x)
+[13.576s]       |       [01;36m[K^~~~[m[K
+[13.576s] [01m[K/usr/include/c++/11/bits/stl_queue.h:648:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[13.576s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:40:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Korigin_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.576s]    40 |     float [01;35m[Korigin_x[m[K = origin.position.x;
+[13.576s]       |           [01;35m[K^~~~~~~~[m[K
+[13.576s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:41:11:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Korigin_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.576s]    41 |     float [01;35m[Korigin_y[m[K = origin.position.y;
+[13.577s]       |           [01;35m[K^~~~~~~~[m[K
+[13.577s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:48:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_idx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.577s]    48 |     int [01;35m[Kgoal_idx[m[K = goal_c+goal_r*width;
+[13.577s]       |         [01;35m[K^~~~~~~~[m[K
+[22.089s] gmake[2]: *** [CMakeFiles/test2.dir/build.make:76: CMakeFiles/test2.dir/src/in.cpp.o] Error 1
+[22.091s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test2.dir/all] Error 2
+[22.099s] gmake: *** [Makefile:146: all] Error 2
+[22.105s] Invoked command in '/home/hqtebk08/Code/tjurm2027-ros/build/test2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test2 -- -j2 -l2

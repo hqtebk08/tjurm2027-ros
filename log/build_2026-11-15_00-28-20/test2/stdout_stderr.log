@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target test2[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test2.dir/src/in.cpp.o[0m
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:[m[K In member function ‘[01m[Kvoid Test2::plan(const PoseStamped&)[m[K’:
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:28:15:[m[K [01;35m[Kwarning: [m[KISO C++ forbids variable length array ‘[01m[Kparent[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla-Wvla]8;;[m[K]
+   28 |     long long [01;35m[Kparent[m[K[digit_map.size()] = {0};
+      |               [01;35m[K^~~~~~[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:28:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kparent[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:27:53:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   27 |   void plan([01;35m[Kconst geometry_msgs::msg::PoseStamped & msg[m[K){
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[100%] [32m[1mLinking CXX executable test2[0m
+[100%] Built target test2
+-- Install configuration: ""
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/lib/test2/test2
+-- Set runtime path of "/home/hqtebk08/Code/tjurm2027-ros/install/test2/lib/test2/test2" to ""
+-- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/ament_index/resource_index/package_run_dependencies/test2
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/ament_index/resource_index/parent_prefix_path/test2
+-- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/environment/ament_prefix_path.sh
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/environment/path.sh
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/environment/path.dsv
+-- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/local_setup.bash
+-- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/local_setup.sh
+-- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/local_setup.zsh
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/local_setup.dsv
+-- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/package.dsv
+-- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/ament_index/resource_index/packages/test2
+-- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/cmake/test2Config.cmake
+-- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/cmake/test2Config-version.cmake
+-- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/package.xml

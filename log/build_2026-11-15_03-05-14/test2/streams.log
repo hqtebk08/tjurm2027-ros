@@ -1,0 +1,26 @@
+[0.092s] Invoking command in '/home/hqtebk08/Code/tjurm2027-ros/build/test2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test2 -- -j2 -l2
+[0.523s] [35m[1mConsolidate compiler generated dependencies of target test2[0m
+[0.792s] [ 50%] [32mBuilding CXX object CMakeFiles/test2.dir/src/in.cpp.o[0m
+[41.425s] [100%] [32m[1mLinking CXX executable test2[0m
+[43.735s] [100%] Built target test2
+[43.930s] Invoked command in '/home/hqtebk08/Code/tjurm2027-ros/build/test2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test2 -- -j2 -l2
+[43.933s] Invoking command in '/home/hqtebk08/Code/tjurm2027-ros/build/test2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hqtebk08/Code/tjurm2027-ros/build/test2
+[43.934s] -- Install configuration: ""
+[43.934s] -- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/lib/test2/test2
+[44.125s] -- Set runtime path of "/home/hqtebk08/Code/tjurm2027-ros/install/test2/lib/test2/test2" to ""
+[44.125s] -- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/ament_index/resource_index/package_run_dependencies/test2
+[44.125s] -- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/ament_index/resource_index/parent_prefix_path/test2
+[44.125s] -- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/environment/ament_prefix_path.sh
+[44.125s] -- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/environment/ament_prefix_path.dsv
+[44.128s] -- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/environment/path.sh
+[44.128s] -- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/environment/path.dsv
+[44.130s] -- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/local_setup.bash
+[44.130s] -- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/local_setup.sh
+[44.131s] -- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/local_setup.zsh
+[44.132s] -- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/local_setup.dsv
+[44.134s] -- Installing: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/package.dsv
+[44.136s] -- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/ament_index/resource_index/packages/test2
+[44.139s] -- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/cmake/test2Config.cmake
+[44.139s] -- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/cmake/test2Config-version.cmake
+[44.140s] -- Up-to-date: /home/hqtebk08/Code/tjurm2027-ros/install/test2/share/test2/package.xml
+[44.147s] Invoked command in '/home/hqtebk08/Code/tjurm2027-ros/build/test2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hqtebk08/Code/tjurm2027-ros/build/test2

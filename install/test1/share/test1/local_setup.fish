@@ -1,1 +1,0 @@
-/home/hqtebk08/Code/tjurm2027-ros/build/test1/ament_cmake_environment_hooks/local_setup.fish

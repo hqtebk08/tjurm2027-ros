@@ -1,0 +1,69 @@
+[0.167s] Invoking command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test1 -- -j2 -l2
+[1.296s] -- The C compiler identification is GNU 11.4.0
+[2.079s] -- The CXX compiler identification is GNU 11.4.0
+[2.247s] -- Detecting C compiler ABI info
+[2.958s] -- Detecting C compiler ABI info - done
+[2.983s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.986s] -- Detecting C compile features
+[2.986s] -- Detecting C compile features - done
+[3.018s] -- Detecting CXX compiler ABI info
+[3.622s] -- Detecting CXX compiler ABI info - done
+[3.634s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.637s] -- Detecting CXX compile features
+[3.637s] -- Detecting CXX compile features - done
+[3.654s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.878s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.133s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.207s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[4.302s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.319s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.344s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.405s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.438s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.610s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.616s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.663s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.982s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.411s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.424s] -- Looking for pthread.h
+[7.285s] -- Looking for pthread.h - found
+[7.295s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.442s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.458s] -- Found Threads: TRUE  
+[8.631s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[8.699s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.125s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.127s] -- Configured cppcheck include dirs: 
+[9.127s] -- Configured cppcheck exclude dirs and/or files: 
+[9.143s] -- Added test 'lint_cmake' to check CMake code style
+[9.160s] -- Added test 'uncrustify' to check C / C++ code style
+[9.160s] -- Configured uncrustify additional arguments: 
+[9.166s] -- Added test 'xmllint' to check XML markup files
+[9.175s] -- Configuring done
+[9.261s] -- Generating done
+[9.336s] -- Build files have been written to: /home/hqtebk08/Code/tjurm2027-ros/build/test1
+[9.735s] [35m[1mConsolidate compiler generated dependencies of target test1[0m
+[9.958s] [ 50%] [32mBuilding CXX object CMakeFiles/test1.dir/src/out.cpp.o[0m
+[41.235s] [100%] [32m[1mLinking CXX executable test1[0m
+[43.902s] [100%] Built target test1
+[44.070s] Invoked command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test1 -- -j2 -l2
+[44.213s] Invoking command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hqtebk08/Code/tjurm2027-ros/build/test1
+[44.441s] -- Install configuration: ""
+[44.530s] -- Execute custom install script
+[44.531s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/lib/test1/test1
+[44.578s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/ament_index/resource_index/package_run_dependencies/test1
+[44.822s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/ament_index/resource_index/parent_prefix_path/test1
+[44.969s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/environment/ament_prefix_path.sh
+[45.077s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/environment/ament_prefix_path.dsv
+[45.146s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/environment/path.sh
+[45.244s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/environment/path.dsv
+[45.291s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/local_setup.bash
+[45.616s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/local_setup.sh
+[45.913s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/local_setup.zsh
+[46.174s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/local_setup.dsv
+[46.354s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/package.dsv
+[46.556s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/ament_index/resource_index/packages/test1
+[46.829s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/cmake/test1Config.cmake
+[46.907s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/cmake/test1Config-version.cmake
+[47.226s] -- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/package.xml
+[47.432s] Invoked command in '/home/hqtebk08/Code/tjurm2027-ros/build/test1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hqtebk08/Code/tjurm2027-ros/build/test1

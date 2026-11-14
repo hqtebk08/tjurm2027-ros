@@ -1,0 +1,366 @@
+[0.000000] (-) TimerEvent: {}
+[0.003575] (test1) JobQueued: {'identifier': 'test1', 'dependencies': OrderedDict()}
+[0.003655] (test2) JobQueued: {'identifier': 'test2', 'dependencies': OrderedDict()}
+[0.003715] (test1) JobStarted: {'identifier': 'test1'}
+[0.043207] (test2) JobStarted: {'identifier': 'test2'}
+[0.076596] (test1) JobProgress: {'identifier': 'test1', 'progress': 'cmake'}
+[0.083764] (test1) JobProgress: {'identifier': 'test1', 'progress': 'build'}
+[0.083867] (test1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hqtebk08/Code/tjurm2027-ros/build/test1', '--', '-j2', '-l2'], 'cwd': '/home/hqtebk08/Code/tjurm2027-ros/build/test1', 'env': OrderedDict([('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'hqtebk08'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hqtebk08'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1044'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1188'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=387c32ca685950ebd75dc1686af74502'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2456'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hqtebk08/Code/tjurm2027-ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqtebk08'), ('JOURNAL_STREAM', '8:17526'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hqtebk08'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hqtebk08:@/tmp/.ICE-unix/1188,unix/hqtebk08:/tmp/.ICE-unix/1188'), ('INVOCATION_ID', '8f3b668890834df58c82d022f6d8c733'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GQ3LY3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hqtebk08/Code/tjurm2027-ros/install/test2:/home/hqtebk08/Code/tjurm2027-ros/install/test1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hqtebk08/Code/tjurm2027-ros/build/test1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=387c32ca685950ebd75dc1686af74502'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hqtebk08/Code/tjurm2027-ros/install/test2:/home/hqtebk08/Code/tjurm2027-ros/install/test1:/opt/ros/humble')]), 'shell': False}
+[0.103979] (-) TimerEvent: {}
+[0.114505] (test2) JobProgress: {'identifier': 'test2', 'progress': 'cmake'}
+[0.117637] (test2) JobProgress: {'identifier': 'test2', 'progress': 'build'}
+[0.140963] (test2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hqtebk08/Code/tjurm2027-ros/build/test2', '--', '-j2', '-l2'], 'cwd': '/home/hqtebk08/Code/tjurm2027-ros/build/test2', 'env': OrderedDict([('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'hqtebk08'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hqtebk08'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1044'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1188'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=387c32ca685950ebd75dc1686af74502'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2456'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hqtebk08/Code/tjurm2027-ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqtebk08'), ('JOURNAL_STREAM', '8:17526'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hqtebk08'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hqtebk08:@/tmp/.ICE-unix/1188,unix/hqtebk08:/tmp/.ICE-unix/1188'), ('INVOCATION_ID', '8f3b668890834df58c82d022f6d8c733'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GQ3LY3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hqtebk08/Code/tjurm2027-ros/install/test2:/home/hqtebk08/Code/tjurm2027-ros/install/test1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hqtebk08/Code/tjurm2027-ros/build/test2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=387c32ca685950ebd75dc1686af74502'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hqtebk08/Code/tjurm2027-ros/install/test2:/home/hqtebk08/Code/tjurm2027-ros/install/test1:/opt/ros/humble')]), 'shell': False}
+[0.212319] (-) TimerEvent: {}
+[0.314676] (-) TimerEvent: {}
+[0.448674] (-) TimerEvent: {}
+[0.549771] (-) TimerEvent: {}
+[0.650482] (-) TimerEvent: {}
+[0.752587] (-) TimerEvent: {}
+[0.845564] (test2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.855949] (-) TimerEvent: {}
+[0.964298] (-) TimerEvent: {}
+[1.064980] (-) TimerEvent: {}
+[1.067995] (test1) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test1\x1b[0m\n'}
+[1.166633] (-) TimerEvent: {}
+[1.280092] (-) TimerEvent: {}
+[1.393600] (-) TimerEvent: {}
+[1.515344] (-) TimerEvent: {}
+[1.641501] (test1) StdoutLine: {'line': b'[100%] Built target test1\n'}
+[1.642679] (-) TimerEvent: {}
+[1.757515] (-) TimerEvent: {}
+[1.858507] (test1) CommandEnded: {'returncode': 0}
+[1.862003] (-) TimerEvent: {}
+[1.866657] (test1) JobProgress: {'identifier': 'test1', 'progress': 'install'}
+[1.898008] (test1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hqtebk08/Code/tjurm2027-ros/build/test1'], 'cwd': '/home/hqtebk08/Code/tjurm2027-ros/build/test1', 'env': OrderedDict([('EGL_PLATFORM', 'wayland'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'hqtebk08'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hqtebk08'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.146.0'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1044'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1188'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=387c32ca685950ebd75dc1686af74502'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2456'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/hqtebk08/Code/tjurm2027-ros/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'hqtebk08'), ('JOURNAL_STREAM', '8:17526'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hqtebk08'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/hqtebk08:@/tmp/.ICE-unix/1188,unix/hqtebk08:/tmp/.ICE-unix/1188'), ('INVOCATION_ID', '8f3b668890834df58c82d022f6d8c733'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GQ3LY3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hqtebk08/Code/tjurm2027-ros/install/test2:/home/hqtebk08/Code/tjurm2027-ros/install/test1:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/hqtebk08/Code/tjurm2027-ros/build/test1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=387c32ca685950ebd75dc1686af74502'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hqtebk08/Code/tjurm2027-ros/install/test2:/home/hqtebk08/Code/tjurm2027-ros/install/test1:/opt/ros/humble')]), 'shell': False}
+[1.962247] (-) TimerEvent: {}
+[2.015308] (test1) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.017975] (test1) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.022757] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/lib/test1/test1\n'}
+[2.022995] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/ament_index/resource_index/package_run_dependencies/test1\n'}
+[2.023212] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/ament_index/resource_index/parent_prefix_path/test1\n'}
+[2.026923] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/environment/ament_prefix_path.sh\n'}
+[2.027210] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/environment/ament_prefix_path.dsv\n'}
+[2.033543] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/environment/path.sh\n'}
+[2.033730] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/environment/path.dsv\n'}
+[2.033878] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/local_setup.bash\n'}
+[2.075945] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/local_setup.sh\n'}
+[2.076217] (-) TimerEvent: {}
+[2.077236] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/local_setup.zsh\n'}
+[2.077496] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/local_setup.dsv\n'}
+[2.077649] (test1) StdoutLine: {'line': b'-- Symlinking: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/package.dsv\n'}
+[2.178240] (-) TimerEvent: {}
+[2.201684] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/ament_index/resource_index/packages/test1\n'}
+[2.203365] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/cmake/test1Config.cmake\n'}
+[2.205361] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/cmake/test1Config-version.cmake\n'}
+[2.206855] (test1) StdoutLine: {'line': b'-- Up-to-date symlink: /home/hqtebk08/Code/tjurm2027-ros/install/test1/share/test1/package.xml\n'}
+[2.218677] (test1) CommandEnded: {'returncode': 0}
+[2.280496] (-) TimerEvent: {}
+[2.285869] (test2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.375834] (test1) JobEnded: {'identifier': 'test1', 'rc': 0}
+[2.415289] (-) TimerEvent: {}
+[2.521702] (-) TimerEvent: {}
+[2.587294] (test2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.597184] (test2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.621966] (-) TimerEvent: {}
+[2.627125] (test2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.664973] (test2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.730250] (-) TimerEvent: {}
+[2.814679] (test2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.831391] (-) TimerEvent: {}
+[2.932503] (-) TimerEvent: {}
+[3.034627] (-) TimerEvent: {}
+[3.113885] (test2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.122360] (test2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.136374] (-) TimerEvent: {}
+[3.236989] (-) TimerEvent: {}
+[3.338438] (-) TimerEvent: {}
+[3.442296] (-) TimerEvent: {}
+[3.542879] (-) TimerEvent: {}
+[3.557528] (test2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.647788] (-) TimerEvent: {}
+[3.778481] (-) TimerEvent: {}
+[3.881374] (-) TimerEvent: {}
+[3.921981] (test2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[4.029000] (-) TimerEvent: {}
+[4.044393] (test2) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.112763] (-) TimerEvent: {}
+[4.127651] (test2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.227687] (-) TimerEvent: {}
+[4.328411] (-) TimerEvent: {}
+[4.434506] (-) TimerEvent: {}
+[4.487879] (test2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.488401] (test2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[4.488574] (test2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[4.491247] (test2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.498595] (test2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[4.498916] (test2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[4.501553] (test2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.508204] (test2) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.534886] (-) TimerEvent: {}
+[4.580307] (test2) StdoutLine: {'line': b'-- Generating done\n'}
+[4.592519] (test2) StdoutLine: {'line': b'-- Build files have been written to: /home/hqtebk08/Code/tjurm2027-ros/build/test2\n'}
+[4.649954] (-) TimerEvent: {}
+[4.750667] (-) TimerEvent: {}
+[4.852301] (-) TimerEvent: {}
+[4.857564] (test2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target test2\x1b[0m\n'}
+[4.952542] (-) TimerEvent: {}
+[4.999825] (test2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/test2.dir/src/in.cpp.o\x1b[0m\n'}
+[5.054408] (-) TimerEvent: {}
+[5.156535] (-) TimerEvent: {}
+[5.261979] (-) TimerEvent: {}
+[5.362887] (-) TimerEvent: {}
+[5.469574] (-) TimerEvent: {}
+[5.577672] (-) TimerEvent: {}
+[5.699308] (-) TimerEvent: {}
+[5.802114] (-) TimerEvent: {}
+[5.910588] (-) TimerEvent: {}
+[6.014865] (-) TimerEvent: {}
+[6.117234] (-) TimerEvent: {}
+[6.217870] (-) TimerEvent: {}
+[6.319462] (-) TimerEvent: {}
+[6.420064] (-) TimerEvent: {}
+[6.529665] (-) TimerEvent: {}
+[6.630256] (-) TimerEvent: {}
+[6.730991] (-) TimerEvent: {}
+[6.831597] (-) TimerEvent: {}
+[6.932410] (-) TimerEvent: {}
+[7.033400] (-) TimerEvent: {}
+[7.134806] (-) TimerEvent: {}
+[7.237561] (-) TimerEvent: {}
+[7.348296] (-) TimerEvent: {}
+[7.461250] (-) TimerEvent: {}
+[7.565687] (-) TimerEvent: {}
+[7.667606] (-) TimerEvent: {}
+[7.771431] (-) TimerEvent: {}
+[7.939608] (-) TimerEvent: {}
+[8.072761] (-) TimerEvent: {}
+[8.181929] (-) TimerEvent: {}
+[8.288633] (-) TimerEvent: {}
+[8.491372] (-) TimerEvent: {}
+[8.592048] (-) TimerEvent: {}
+[8.694929] (-) TimerEvent: {}
+[8.797278] (-) TimerEvent: {}
+[8.912759] (-) TimerEvent: {}
+[9.014572] (-) TimerEvent: {}
+[9.116379] (-) TimerEvent: {}
+[9.218542] (-) TimerEvent: {}
+[9.319144] (-) TimerEvent: {}
+[9.438856] (-) TimerEvent: {}
+[9.570912] (-) TimerEvent: {}
+[9.680153] (-) TimerEvent: {}
+[9.810563] (-) TimerEvent: {}
+[9.916586] (-) TimerEvent: {}
+[10.020848] (-) TimerEvent: {}
+[10.136753] (-) TimerEvent: {}
+[10.255767] (-) TimerEvent: {}
+[10.361570] (-) TimerEvent: {}
+[10.487508] (-) TimerEvent: {}
+[10.589494] (-) TimerEvent: {}
+[10.738818] (-) TimerEvent: {}
+[10.857973] (-) TimerEvent: {}
+[10.974724] (-) TimerEvent: {}
+[11.107143] (-) TimerEvent: {}
+[11.217915] (-) TimerEvent: {}
+[11.322553] (-) TimerEvent: {}
+[11.424452] (-) TimerEvent: {}
+[11.524950] (-) TimerEvent: {}
+[11.707929] (-) TimerEvent: {}
+[11.837205] (-) TimerEvent: {}
+[11.942658] (-) TimerEvent: {}
+[12.113146] (-) TimerEvent: {}
+[12.218944] (-) TimerEvent: {}
+[12.337725] (-) TimerEvent: {}
+[12.476983] (-) TimerEvent: {}
+[12.588680] (-) TimerEvent: {}
+[12.693006] (-) TimerEvent: {}
+[12.851607] (-) TimerEvent: {}
+[12.976581] (-) TimerEvent: {}
+[13.081022] (-) TimerEvent: {}
+[13.233050] (-) TimerEvent: {}
+[13.342876] (-) TimerEvent: {}
+[13.465647] (-) TimerEvent: {}
+[13.581607] (-) TimerEvent: {}
+[13.702414] (-) TimerEvent: {}
+[13.806883] (-) TimerEvent: {}
+[13.910396] (-) TimerEvent: {}
+[14.018593] (-) TimerEvent: {}
+[14.141180] (-) TimerEvent: {}
+[14.241750] (-) TimerEvent: {}
+[14.342595] (-) TimerEvent: {}
+[14.444162] (-) TimerEvent: {}
+[14.552218] (-) TimerEvent: {}
+[14.652850] (-) TimerEvent: {}
+[14.754342] (-) TimerEvent: {}
+[14.855017] (-) TimerEvent: {}
+[14.956532] (-) TimerEvent: {}
+[15.073291] (-) TimerEvent: {}
+[15.173907] (-) TimerEvent: {}
+[15.274634] (-) TimerEvent: {}
+[15.375239] (-) TimerEvent: {}
+[15.482736] (-) TimerEvent: {}
+[15.585522] (-) TimerEvent: {}
+[15.739553] (-) TimerEvent: {}
+[15.842229] (-) TimerEvent: {}
+[15.946354] (-) TimerEvent: {}
+[16.047699] (-) TimerEvent: {}
+[16.148435] (-) TimerEvent: {}
+[16.261125] (-) TimerEvent: {}
+[16.412725] (-) TimerEvent: {}
+[16.519688] (-) TimerEvent: {}
+[16.621405] (-) TimerEvent: {}
+[16.722256] (-) TimerEvent: {}
+[16.823780] (-) TimerEvent: {}
+[16.924629] (-) TimerEvent: {}
+[16.932204] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTest2::Test2(const string&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.933011] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:20:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[16.933349] (test2) StderrLine: {'line': b'   20 |       std::bind(&Test2::update, this, std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.934888] (test2) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[16.936465] (test2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[16.936647] (test2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[16.936793] (test2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:1\x1b[m\x1b[K:\n'}
+[16.936937] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.937151] (test2) StderrLine: {'line': b'  363 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[16.940126] (test2) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.941354] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[16.943412] (test2) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void> > > >&; _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.946227] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:363:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Subscription<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.946384] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:20:61:\x1b[m\x1b[K   required from here\n'}
+[16.946529] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.946675] (test2) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[16.946819] (test2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.946962] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.947200] (test2) StderrLine: {'line': b'  374 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[16.947351] (test2) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.947494] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:374:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[16.947651] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:20:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.947797] (test2) StderrLine: {'line': b'   20 |       std::bind(&Test2::update, this, std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.947944] (test2) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[16.954444] (test2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[16.956008] (test2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[16.957131] (test2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:1\x1b[m\x1b[K:\n'}
+[16.957290] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.957444] (test2) StderrLine: {'line': b'  391 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[16.957588] (test2) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.957747] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[16.957892] (test2) StderrLine: {'line': b'/usr/include/c++/11/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Subscription<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void> > > >; _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.958046] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:391:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Subscription<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.962346] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:20:61:\x1b[m\x1b[K   required from here\n'}
+[16.962495] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:130:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.962643] (test2) StderrLine: {'line': b'  130 |         using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[16.962788] (test2) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.962932] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.963153] (test2) StderrLine: {'line': b'  399 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[16.963303] (test2) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.963447] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:399:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[16.963591] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:20:61:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.963752] (test2) StderrLine: {'line': b'   20 |       std::bind(&Test2::update, this, std::placeholders::_1)\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[16.963896] (test2) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[16.964039] (test2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[16.969207] (test2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[16.969362] (test2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:1\x1b[m\x1b[K:\n'}
+[16.969507] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.969671] (test2) StderrLine: {'line': b'  359 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[16.969816] (test2) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.969960] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:359:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.970167] (test2) StderrLine: {'line': b'  359 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[16.970318] (test2) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.970461] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.970612] (test2) StderrLine: {'line': b'  383 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[16.970755] (test2) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[16.975686] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:383:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void>, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<nav_msgs::msg::OccupancyGrid_<std::allocator<void> >, std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.976766] (test2) StderrLine: {'line': b'  383 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[16.976925] (test2) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[16.977127] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Test2::update(const OccupancyGrid&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.977280] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:24:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst OccupancyGrid\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct nav_msgs::msg::OccupancyGrid_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kdate\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[16.977433] (test2) StderrLine: {'line': b'   24 |     digit_map.assign(msg.\x1b[01;31m\x1b[Kdate\x1b[m\x1b[K.begin(),msg.date.end());\n'}
+[16.977578] (test2) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[16.977735] (test2) StderrLine: {'line': b'      |                          \x1b[32m\x1b[Kdata\x1b[m\x1b[K\n'}
+[16.977879] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:24:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kconst OccupancyGrid\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst struct nav_msgs::msg::OccupancyGrid_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kdate\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[16.978025] (test2) StderrLine: {'line': b'   24 |     digit_map.assign(msg.date.begin(),msg.\x1b[01;31m\x1b[Kdate\x1b[m\x1b[K.end());\n'}
+[16.985384] (test2) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[16.985538] (test2) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[Kdata\x1b[m\x1b[K\n'}
+[16.985683] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:25:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kassignment of member \xe2\x80\x98\x1b[01m\x1b[KTest2::resolution\x1b[m\x1b[K\xe2\x80\x99 in read-only object\n'}
+[16.985842] (test2) StderrLine: {'line': b'   25 |     \x1b[01;31m\x1b[Kresolution = msg.info.resolution\x1b[m\x1b[K;\n'}
+[16.985986] (test2) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.986198] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:26:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kconst PoseStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kconst _origin_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[16.986359] (test2) StderrLine: {'line': b'   26 |     origin = msg.info.\x1b[01;31m\x1b[Korigin\x1b[m\x1b[K;\n'}
+[16.986503] (test2) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[16.986647] (test2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[16.986791] (test2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:2\x1b[m\x1b[K:\n'}
+[16.986936] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:39:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >& geometry_msgs::msg::PoseStamped_<std::allocator<void> >::operator=(const geometry_msgs::msg::PoseStamped_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.993231] (test2) StderrLine: {'line': b'   39 | struct \x1b[01;36m\x1b[KPoseStamped_\x1b[m\x1b[K\n'}
+[16.993416] (test2) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.993569] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:39:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _origin_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::PoseStamped_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.993724] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:39:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >& geometry_msgs::msg::PoseStamped_<std::allocator<void> >::operator=(geometry_msgs::msg::PoseStamped_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.993870] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:39:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _origin_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.994016] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Test2::plan(const PoseStamped&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.994212] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:29:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids variable length array \xe2\x80\x98\x1b[01m\x1b[Kparent\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvla\x07-Wvla\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.994360] (test2) StderrLine: {'line': b'   29 |     long long \x1b[01;35m\x1b[Kparent\x1b[m\x1b[K[digit_map.size()] = {0};\n'}
+[16.994505] (test2) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[16.994653] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:29:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kparent\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.994810] (test2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:28:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.994962] (test2) StderrLine: {'line': b'   28 |   void plan(\x1b[01;35m\x1b[Kconst geometry_msgs::msg::PoseStamped & msg\x1b[m\x1b[K){\n'}
+[16.999894] (test2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[17.025214] (-) TimerEvent: {}
+[17.126532] (-) TimerEvent: {}
+[17.229273] (-) TimerEvent: {}
+[17.332829] (-) TimerEvent: {}
+[17.434662] (-) TimerEvent: {}
+[17.535945] (-) TimerEvent: {}
+[17.636759] (-) TimerEvent: {}
+[17.739395] (-) TimerEvent: {}
+[17.841606] (-) TimerEvent: {}
+[17.942324] (-) TimerEvent: {}
+[18.044872] (-) TimerEvent: {}
+[18.145437] (-) TimerEvent: {}
+[18.245952] (-) TimerEvent: {}
+[18.348379] (-) TimerEvent: {}
+[18.448933] (-) TimerEvent: {}
+[18.552395] (-) TimerEvent: {}
+[18.654791] (-) TimerEvent: {}
+[18.760710] (-) TimerEvent: {}
+[18.888396] (-) TimerEvent: {}
+[18.988999] (-) TimerEvent: {}
+[19.090215] (-) TimerEvent: {}
+[19.200770] (-) TimerEvent: {}
+[19.303250] (-) TimerEvent: {}
+[19.403780] (-) TimerEvent: {}
+[19.504588] (-) TimerEvent: {}
+[19.605604] (-) TimerEvent: {}
+[19.708409] (-) TimerEvent: {}
+[19.809669] (-) TimerEvent: {}
+[19.911456] (-) TimerEvent: {}
+[20.014454] (-) TimerEvent: {}
+[20.123474] (-) TimerEvent: {}
+[20.225554] (-) TimerEvent: {}
+[20.342471] (-) TimerEvent: {}
+[20.443478] (-) TimerEvent: {}
+[20.546541] (-) TimerEvent: {}
+[20.647755] (-) TimerEvent: {}
+[20.756165] (-) TimerEvent: {}
+[20.858798] (-) TimerEvent: {}
+[20.959708] (-) TimerEvent: {}
+[21.061260] (-) TimerEvent: {}
+[21.161994] (-) TimerEvent: {}
+[21.263377] (-) TimerEvent: {}
+[21.380333] (-) TimerEvent: {}
+[21.483135] (-) TimerEvent: {}
+[21.603885] (-) TimerEvent: {}
+[21.712664] (-) TimerEvent: {}
+[21.813981] (-) TimerEvent: {}
+[21.923601] (-) TimerEvent: {}
+[22.035430] (-) TimerEvent: {}
+[22.141272] (-) TimerEvent: {}
+[22.246258] (-) TimerEvent: {}
+[22.347061] (-) TimerEvent: {}
+[22.449739] (-) TimerEvent: {}
+[22.551397] (-) TimerEvent: {}
+[22.663626] (-) TimerEvent: {}
+[22.771405] (-) TimerEvent: {}
+[22.868528] (test2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/test2.dir/build.make:76: CMakeFiles/test2.dir/src/in.cpp.o] Error 1\n'}
+[22.871962] (-) TimerEvent: {}
+[22.880008] (test2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test2.dir/all] Error 2\n'}
+[22.885815] (test2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[22.914741] (test2) CommandEnded: {'returncode': 2}
+[22.924456] (test2) JobEnded: {'identifier': 'test2', 'rc': 2}
+[22.956483] (-) EventReactorShutdown: {}

@@ -1,0 +1,15 @@
+[0.213s] Invoking command in '/home/hqtebk08/Code/tjurm2027-ros/build/test2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test2 -- -j2 -l2
+[0.942s] [35m[1mConsolidate compiler generated dependencies of target test2[0m
+[1.313s] [ 50%] [32mBuilding CXX object CMakeFiles/test2.dir/src/in.cpp.o[0m
+[15.859s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:[m[K In constructor ‘[01m[KTest2::Test2(const string&)[m[K’:
+[15.881s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:31:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+[15.881s]    31 |     [01;31m[Kpublisher[m[K = this->create_publisher<nav_msgs::msg::Path>("plan", 10);
+[15.881s]       |     [01;31m[K^~~~~~~~~[m[K
+[15.990s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:[m[K In member function ‘[01m[Kvoid Test2::plan(const PoseStamped&)[m[K’:
+[15.990s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:107:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+[15.990s]   107 |     [01;31m[Kpublisher[m[K->publish(path);
+[15.990s]       |     [01;31m[K^~~~~~~~~[m[K
+[27.454s] gmake[2]: *** [CMakeFiles/test2.dir/build.make:76: CMakeFiles/test2.dir/src/in.cpp.o] Error 1
+[27.457s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test2.dir/all] Error 2
+[27.457s] gmake: *** [Makefile:146: all] Error 2
+[27.477s] Invoked command in '/home/hqtebk08/Code/tjurm2027-ros/build/test2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test2 -- -j2 -l2

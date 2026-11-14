@@ -1,0 +1,64 @@
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:8:38:[m[K [01;31m[Kerror: [m[K‘[01m[KPath[m[K’ is not a member of ‘[01m[Knav_msgs::msg[m[K’
+    8 |     rclcpp::Publisher<nav_msgs::msg::[01;31m[KPath[m[K>::SharedPtr publisher;
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:8:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    8 |     rclcpp::Publisher<nav_msgs::msg::Path[01;31m[K>[m[K::SharedPtr publisher;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:8:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+    8 |     rclcpp::Publisher<nav_msgs::msg::Path>::[01;31m[KSharedPtr[m[K publisher;
+      |                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:8:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ does not name a type
+    8 |     rclcpp::Publisher<nav_msgs::msg::Path>::SharedPtr [01;31m[Kpublisher[m[K;
+      |                                                       [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:[m[K In constructor ‘[01m[KTest1::Test1(const string&)[m[K’:
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:10:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+   10 |         [01;31m[Kpublisher[m[K = this->create_publisher<nav_msgs::msg::Path>("test", 10);
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:10:59:[m[K [01;31m[Kerror: [m[K‘[01m[KPath[m[K’ is not a member of ‘[01m[Knav_msgs::msg[m[K’
+   10 |         publisher = this->create_publisher<nav_msgs::msg::[01;31m[KPath[m[K>("test", 10);
+      |                                                           [01;31m[K^~~~[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:10:64:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTest1::create_publisher<<expression error> >(const char [5], int)[m[K’
+   10 |         publisher = [01;31m[Kthis->create_publisher<nav_msgs::msg::Path>("test", 10)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:10:64:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 |         publisher = [01;31m[Kthis->create_publisher<nav_msgs::msg::Path>("test", 10)[m[K;
+      |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:[m[K In member function ‘[01m[Kvoid Test1::pub()[m[K’:
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:21:24:[m[K [01;31m[Kerror: [m[K‘[01m[KPath[m[K’ is not a member of ‘[01m[Knav_msgs::msg[m[K’
+   21 |         nav_msgs::msg::[01;31m[KPath[m[K path;
+      |                        [01;31m[K^~~~[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpath[m[K’ was not declared in this scope; did you mean ‘[01m[Krcpputils::fs::path[m[K’?
+   22 |         [01;31m[Kpath[m[K.header = message.header;
+      |         [01;31m[K^~~~[m[K
+      |         [32m[Krcpputils::fs::path[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:76:7:[m[K [01;36m[Knote: [m[K‘[01m[Krcpputils::fs::path[m[K’ declared here
+   76 | class [01;36m[Kpath[m[K
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test1/src/out.cpp:27:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+   27 |         [01;31m[Kpublisher[m[K->publish(path);
+      |         [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test1.dir/build.make:76: CMakeFiles/test1.dir/src/out.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

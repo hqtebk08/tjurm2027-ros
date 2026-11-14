@@ -1,0 +1,4 @@
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:[m[K In member function ‘[01m[Kfloat Test2::g(int)[m[K’:
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:42:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kidx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   42 |   float g([01;35m[Kint idx[m[K){
+      |           [01;35m[K~~~~^~~[m[K

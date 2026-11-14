@@ -1,0 +1,20 @@
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:[m[K In member function ‘[01m[Kvoid Test2::plan(const PoseStamped&)[m[K’:
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:49:14:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::priority_queue<std::pair<float, int>, std::vector<std::pair<float, int> >, std::greater<std::pair<float, int> > >::push(float, int)[m[K’
+   49 |     [01;31m[Kfind.push(0.0f,0)[m[K;
+      |     [01;31m[K~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/11/queue:64[m[K,
+                 from [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:7[m[K:
+[01m[K/usr/include/c++/11/bits/stl_queue.h:640:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::priority_queue<_Tp, _Sequence, _Compare>::push(const value_type&) [with _Tp = std::pair<float, int>; _Sequence = std::vector<std::pair<float, int> >; _Compare = std::greater<std::pair<float, int> >; std::priority_queue<_Tp, _Sequence, _Compare>::value_type = std::pair<float, int>][m[K’
+  640 |       [01;36m[Kpush[m[K(const value_type& __x)
+      |       [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_queue.h:640:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/usr/include/c++/11/bits/stl_queue.h:648:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid std::priority_queue<_Tp, _Sequence, _Compare>::push(std::priority_queue<_Tp, _Sequence, _Compare>::value_type&&) [with _Tp = std::pair<float, int>; _Sequence = std::vector<std::pair<float, int> >; _Compare = std::greater<std::pair<float, int> >; std::priority_queue<_Tp, _Sequence, _Compare>::value_type = std::pair<float, int>][m[K’
+  648 |       [01;36m[Kpush[m[K(value_type&& __x)
+      |       [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/11/bits/stl_queue.h:648:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:48:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kgoal_idx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   48 |     int [01;35m[Kgoal_idx[m[K = goal_c+goal_r*width;
+      |         [01;35m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test2.dir/build.make:76: CMakeFiles/test2.dir/src/in.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,30 @@
+[35m[1mConsolidate compiler generated dependencies of target test2[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test2.dir/src/in.cpp.o[0m
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:[m[K In member function ‘[01m[Kvoid Test2::plan(const PoseStamped&)[m[K’:
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:68:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfind[m[K’
+   68 |         [01;31m[Kfind[m[K.push({value[idx+1],idx+1})
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:68:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   68 |         find.push({value[idx+1],idx+1}[01;31m[K)[m[K
+      |                                       [01;31m[K^[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:73:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfind[m[K’
+   73 |         [01;31m[Kfind[m[K.push({value[idx-1],idx-1})
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:73:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   73 |         find.push({value[idx-1],idx-1}[01;31m[K)[m[K
+      |                                       [01;31m[K^[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:78:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfind[m[K’
+   78 |         [01;31m[Kfind[m[K.push({value[idx+height],idx+height})
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:78:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   78 |         find.push({value[idx+height],idx+height}[01;31m[K)[m[K
+      |                                                 [01;31m[K^[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:83:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfind[m[K’
+   83 |         [01;31m[Kfind[m[K.push({value[idx-height],idx-height})
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:83:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   83 |         find.push({value[idx-height],idx-height}[01;31m[K)[m[K
+      |                                                 [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/test2.dir/build.make:76: CMakeFiles/test2.dir/src/in.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,14 @@
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:17:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kclcpp[m[K’ does not name a type
+   17 |   [01;31m[Kclcpp[m[K::Publisher<nav_msgs::msg::Path>::SharedPtr publisher;
+      |   [01;31m[K^~~~~[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:[m[K In constructor ‘[01m[KTest2::Test2(const string&)[m[K’:
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+   32 |     [01;31m[Kpublisher[m[K = this->create_publisher<nav_msgs::msg::Path>("plan", 10);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:[m[K In member function ‘[01m[Kvoid Test2::plan(const PoseStamped&)[m[K’:
+[01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:108:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+  108 |     [01;31m[Kpublisher[m[K->publish(path);
+      |     [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/test2.dir/build.make:76: CMakeFiles/test2.dir/src/in.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test2.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

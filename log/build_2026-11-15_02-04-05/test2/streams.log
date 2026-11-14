@@ -1,0 +1,32 @@
+[0.076s] Invoking command in '/home/hqtebk08/Code/tjurm2027-ros/build/test2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test2 -- -j2 -l2
+[0.568s] [35m[1mConsolidate compiler generated dependencies of target test2[0m
+[0.980s] [ 50%] [32mBuilding CXX object CMakeFiles/test2.dir/src/in.cpp.o[0m
+[9.729s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:[m[K In member function ‘[01m[Kvoid Test2::plan(const PoseStamped&)[m[K’:
+[9.729s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:68:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfind[m[K’
+[9.729s]    68 |         [01;31m[Kfind[m[K.push({value[idx+1],idx+1})
+[9.733s]       |         [01;31m[K^~~~[m[K
+[9.733s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:68:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[9.733s]    68 |         find.push({value[idx+1],idx+1}[01;31m[K)[m[K
+[9.733s]       |                                       [01;31m[K^[m[K
+[9.733s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:73:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfind[m[K’
+[9.733s]    73 |         [01;31m[Kfind[m[K.push({value[idx-1],idx-1})
+[9.734s]       |         [01;31m[K^~~~[m[K
+[9.734s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:73:39:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[9.737s]    73 |         find.push({value[idx-1],idx-1}[01;31m[K)[m[K
+[9.737s]       |                                       [01;31m[K^[m[K
+[9.737s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:78:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfind[m[K’
+[9.737s]    78 |         [01;31m[Kfind[m[K.push({value[idx+height],idx+height})
+[9.738s]       |         [01;31m[K^~~~[m[K
+[9.738s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:78:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[9.741s]    78 |         find.push({value[idx+height],idx+height}[01;31m[K)[m[K
+[9.741s]       |                                                 [01;31m[K^[m[K
+[9.741s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:83:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kfind[m[K’
+[9.741s]    83 |         [01;31m[Kfind[m[K.push({value[idx-height],idx-height})
+[9.742s]       |         [01;31m[K^~~~[m[K
+[9.742s] [01m[K/home/hqtebk08/Code/tjurm2027-ros/src/test2/src/in.cpp:83:49:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[9.742s]    83 |         find.push({value[idx-height],idx-height}[01;31m[K)[m[K
+[9.742s]       |                                                 [01;31m[K^[m[K
+[17.369s] gmake[2]: *** [CMakeFiles/test2.dir/build.make:76: CMakeFiles/test2.dir/src/in.cpp.o] Error 1
+[17.372s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/test2.dir/all] Error 2
+[17.372s] gmake: *** [Makefile:146: all] Error 2
+[17.380s] Invoked command in '/home/hqtebk08/Code/tjurm2027-ros/build/test2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hqtebk08/Code/tjurm2027-ros/build/test2 -- -j2 -l2

@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -23,7 +24,7 @@ if(BUILD_TESTING)
 endif()
 
 add_executable(test1 src/out.cpp)
-target_link_libraries(test1 rclcpp::rclcpp geometry_msgs::geometry_msgs)
+target_link_libraries(test1 rclcpp::rclcpp geometry_msgs::geometry_msgs nav_msgs::nav_msgs)
 install(TARGETS test1
   DESTINATION lib/${PROJECT_NAME}
 )
